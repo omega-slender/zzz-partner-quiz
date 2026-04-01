@@ -1,0 +1,264 @@
+[
+  {
+    "q": "What do you prefer doing on a day off?",
+    "opts": [
+      "Working out or pushing myself physically",
+      "Eating something good and relaxing without a care",
+      "Staying quiet — resting or reading",
+      "Exploring something new and unexpected"
+    ]
+  },
+  {
+    "q": "How do you show someone you care about them?",
+    "opts": [
+      "Through concrete actions, not words",
+      "By saying it openly and being affectionate",
+      "I struggle to express it, but when I do, it's everything",
+      "Through teasing and flirting — but genuinely"
+    ]
+  },
+  {
+    "q": "What kind of humor do you prefer?",
+    "opts": [
+      "Dark, ironic or absurd",
+      "Spontaneous and physical — laughing until it hurts",
+      "Clever and subtle, wordplay and wit",
+      "I'm not much of a joker — I prefer sincerity"
+    ]
+  },
+  {
+    "q": "What's your relationship with order and rules?",
+    "opts": [
+      "I love structure — I can't function without it",
+      "Rules are made to be broken",
+      "I prioritize efficiency above all else",
+      "Rules suffocate me — I need freedom"
+    ]
+  },
+  {
+    "q": "What do you value most in a relationship?",
+    "opts": [
+      "Absolute honesty and directness",
+      "Patience and mutual understanding",
+      "Intelligence and someone who challenges me",
+      "Loyalty and constant presence"
+    ]
+  },
+  {
+    "q": "What type of music do you prefer?",
+    "opts": [
+      "Metal, heavy rock or intense music",
+      "Classical or elegant instrumental music",
+      "Underground pop, indie or dark music",
+      "I don't have a strong preference"
+    ]
+  },
+  {
+    "q": "How do you react in a dangerous situation?",
+    "opts": [
+      "I throw myself in without thinking twice",
+      "I analyze and act with precision",
+      "I protect others before myself",
+      "I prefer to avoid conflict whenever possible"
+    ]
+  },
+  {
+    "q": "What would you order at a restaurant?",
+    "opts": [
+      "Something simple and comforting (rice, burgers, ramen)",
+      "Street food or something from a popular local spot",
+      "An elegant, well-presented dish",
+      "Whatever dessert or sweet catches my eye"
+    ]
+  },
+  {
+    "q": "How do you prefer to communicate with someone?",
+    "opts": [
+      "Few words — let actions do the talking",
+      "Open and direct, holding nothing back",
+      "Through hints and subtle games",
+      "In a deep and thoughtful way"
+    ]
+  },
+  {
+    "q": "What is your biggest fear?",
+    "opts": [
+      "Someone I care about getting hurt",
+      "Complete boredom — nothing left to excite me",
+      "Losing control of an important situation",
+      "Someone getting to know me too well"
+    ]
+  },
+  {
+    "q": "If you could spend unlimited money in one day, what would you use it for?",
+    "opts": [
+      "Top-of-the-line training or combat equipment",
+      "An epic feast with the best food in the world",
+      "Rare books, experimental tech or unique artifacts",
+      "Nothing special — I'd save it"
+    ]
+  },
+  {
+    "q": "What's your social style?",
+    "opts": [
+      "I'm the life of the party — I love socializing",
+      "Loyal to my inner circle, but I don't open up easily",
+      "Reserved but interesting once you get to know me",
+      "Shy or observant — it takes a lot to get to know me"
+    ]
+  },
+  {
+    "q": "What do you find most attractive in someone?",
+    "opts": [
+      "That they're strong and not intimidated by me",
+      "That they're intelligent and always surprise me",
+      "That they're kind and patient with everyone",
+      "That they're honest and don't beat around the bush"
+    ]
+  },
+  {
+    "q": "What would your role be in a team?",
+    "opts": [
+      "The leader who makes the calls",
+      "The silent specialist who works in the shadows",
+      "The one who looks after and supports everyone",
+      "Living chaos — improvise and win"
+    ]
+  },
+  {
+    "q": "What do you think about the supernatural and mysterious?",
+    "opts": [
+      "I'm fascinated — I'd love to dive in headfirst",
+      "I find it interesting as a concept",
+      "It doesn't particularly interest me",
+      "It earns my respect, but I'd rather stay away"
+    ]
+  },
+  {
+    "q": "How do you react to failure?",
+    "opts": [
+      "I get back up and try again immediately",
+      "I process it in silence and learn from it",
+      "It affects me deeply — I worry about disappointing others",
+      "It doesn't faze me if I did what I had to do"
+    ]
+  },
+  {
+    "q": "What environment makes you feel most comfortable?",
+    "opts": [
+      "Dark, quiet and a little mysterious",
+      "Busy and full of energy",
+      "Home or a familiar, cozy space",
+      "An orderly and efficient space"
+    ]
+  },
+  {
+    "q": "How important is work in your life?",
+    "opts": [
+      "It's my reason for being — I'm fully dedicated",
+      "I love it, but I know how to balance it",
+      "I work to live, I don't live to work",
+      "Work is exciting when it truly drives me"
+    ]
+  },
+  {
+    "q": "What kind of people drive you crazy?",
+    "opts": [
+      "Cowards or people who don't put in effort",
+      "People who are too loud or unpredictable",
+      "Those who lie or manipulate without remorse",
+      "Boring and utterly predictable people"
+    ]
+  },
+  {
+    "q": "How do you react when someone disappoints you?",
+    "opts": [
+      "I say it to their face, no sugarcoating",
+      "I keep it to myself, but I never forget",
+      "I forgive easily — I'm not one to hold grudges",
+      "It depends on who it is and how much they matter to me"
+    ]
+  },
+  {
+    "q": "What would a perfect first date look like for you?",
+    "opts": [
+      "A competition or physical activity — something with action",
+      "Elegant dinner, great atmosphere and deep conversation",
+      "Something dark and mysterious: a horror film or a strange place",
+      "Something simple and unpretentious — good food and good talk"
+    ]
+  },
+  {
+    "q": "How long does it take you to open up to someone new?",
+    "opts": [
+      "A long time — I'm very guarded",
+      "It depends on who they are; I assess as I go",
+      "Gradually, over time",
+      "I'm very open from the very first moment"
+    ]
+  },
+  {
+    "q": "How important is loyalty to you?",
+    "opts": [
+      "It's everything — without it, there's nothing",
+      "It's fundamental, but it has to be earned first",
+      "Loyalty comes with affection — it can't be demanded",
+      "I believe in individual freedom above all else"
+    ]
+  },
+  {
+    "q": "What kind of movie would you choose to watch?",
+    "opts": [
+      "Action, fights and explosions",
+      "Horror, mystery or the supernatural",
+      "Deep and emotional drama",
+      "Comedy or something light and relaxing"
+    ]
+  },
+  {
+    "q": "How do you handle your emotional life?",
+    "opts": [
+      "Completely privately — nobody knows",
+      "I share it only with very close people",
+      "I'm fairly open emotionally",
+      "I blend humor with the emotional stuff"
+    ]
+  },
+  {
+    "q": "How important are tradition and respect to you?",
+    "opts": [
+      "They're central to my life",
+      "I respect them but they don't define me",
+      "I take them as a guide, not a law",
+      "Traditions feel limiting to me"
+    ]
+  },
+  {
+    "q": "What type of challenge do you prefer?",
+    "opts": [
+      "Physical: combat, endurance, strength",
+      "Intellectual: strategy, chess, puzzles",
+      "Emotional or creative: art, music, writing",
+      "Pure improvisation in the middle of chaos"
+    ]
+  },
+
+  {
+    "q": "What phrase from someone would affect you the most?",
+    "opts": [
+      "\"You're not good enough\"",
+      "\"You're too intense and unpredictable\"",
+      "\"I can't trust you\"",
+      "\"You're too closed off from others\""
+    ]
+  },
+  {
+    "q": "What phrase best describes your attitude toward life?",
+    "opts": [
+      "\"Perfection is the bare minimum\"",
+      "\"Live fast, never look back\"",
+      "\"The unknown is the most interesting thing\"",
+      "\"The people I love are my reason for everything\""
+    ]
+  }
+]

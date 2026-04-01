@@ -1,0 +1,264 @@
+[
+  {
+    "q": "¿Qué prefieres hacer en un día libre?",
+    "opts": [
+      "Entrenarme o desafiarme físicamente",
+      "Comer algo rico y descansar sin pensar",
+      "Quedarme en silencio, descansando o leyendo",
+      "Explorar algo nuevo o inesperado"
+    ]
+  },
+  {
+    "q": "¿Cómo demuestras que alguien te importa?",
+    "opts": [
+      "Con acciones concretas, no con palabras",
+      "Diciéndolo abiertamente y siendo cariñoso/a",
+      "Me cuesta expresarlo, pero cuando lo hago es total",
+      "Con bromas y coqueteo, pero de verdad"
+    ]
+  },
+  {
+    "q": "¿Qué tipo de humor prefieres?",
+    "opts": [
+      "Oscuro, irónico o absurdo",
+      "Espontáneo y físico, caerse de risa",
+      "Inteligente y sutil, juegos de palabras",
+      "No soy muy bromista, prefiero la sinceridad"
+    ]
+  },
+  {
+    "q": "¿Qué relación tienes con el orden y las reglas?",
+    "opts": [
+      "Me encanta el orden, no puedo sin él",
+      "Las reglas existen para ser rotas",
+      "Prefiero la eficiencia por encima de todo",
+      "Las reglas me agobian, necesito libertad"
+    ]
+  },
+  {
+    "q": "¿Qué valoras más en una relación?",
+    "opts": [
+      "Honestidad y franqueza absolutas",
+      "Paciencia y comprensión mutua",
+      "Inteligencia y que me haga pensar",
+      "Lealtad y presencia constante"
+    ]
+  },
+  {
+    "q": "¿Qué tipo de música prefieres?",
+    "opts": [
+      "Metal, rock pesado o música intensa",
+      "Música clásica o instrumental elegante",
+      "Pop underground, indie o música oscura",
+      "No tengo preferencia muy fuerte"
+    ]
+  },
+  {
+    "q": "¿Cómo reaccionas en una situación peligrosa?",
+    "opts": [
+      "Me lanzo sin pensarlo dos veces",
+      "Analizo y actúo con precisión",
+      "Protejo a los demás antes que nada",
+      "Prefiero evitar el conflicto siempre que pueda"
+    ]
+  },
+  {
+    "q": "¿Qué pedirías en un restaurante?",
+    "opts": [
+      "Algo simple y reconfortante (arroz, hamburguesas, ramen)",
+      "Comida callejera o de local popular",
+      "Un plato elegante y bien presentado",
+      "Cualquier dulce o postre que llame mi atención"
+    ]
+  },
+  {
+    "q": "¿Cómo prefieres comunicarte con alguien?",
+    "opts": [
+      "Pocas palabras, que hablen las acciones",
+      "Abierto/a y directo/a, sin guardarse nada",
+      "Con indirectas y juegos sutiles",
+      "De manera profunda y reflexiva"
+    ]
+  },
+  {
+    "q": "¿Cuál es tu mayor miedo?",
+    "opts": [
+      "Que alguien a quien cuido salga herido",
+      "El aburrimiento absoluto, sin nada que me emocione",
+      "Perder el control de una situación importante",
+      "Que alguien llegue a conocerme demasiado bien"
+    ]
+  },
+  {
+    "q": "Si pudieras gastar dinero ilimitado en un día, ¿en qué lo usarías?",
+    "opts": [
+      "Equipamiento de entrenamiento o combate de primer nivel",
+      "Un banquete épico con la mejor comida del mundo",
+      "Libros raros, tecnología experimental o artefactos únicos",
+      "Nada especial — lo ahorraría"
+    ]
+  },
+  {
+    "q": "¿Cuál es tu estilo social?",
+    "opts": [
+      "Soy el alma de la fiesta, me encanta socializar",
+      "Leal con mi círculo, pero no me abro fácilmente",
+      "Reservado/a pero interesante cuando me conocen",
+      "Tímido/a u observador/a; cuesta mucho conocerme"
+    ]
+  },
+  {
+    "q": "¿Qué te resulta más atractivo en alguien?",
+    "opts": [
+      "Que sea fuerte y no me tenga miedo",
+      "Que sea inteligente y siempre me sorprenda",
+      "Que sea amable y paciente con todo",
+      "Que sea honesto/a y no ande con rodeos"
+    ]
+  },
+  {
+    "q": "¿Cuál sería tu rol en un equipo?",
+    "opts": [
+      "El/la líder que toma las decisiones",
+      "El/la especialista en combate silencioso",
+      "El/la que cuida y apoya a todos",
+      "El/la caos viviente: improvisa y gana"
+    ]
+  },
+  {
+    "q": "¿Qué opinas sobre lo sobrenatural y misterioso?",
+    "opts": [
+      "Me fascina, me encantaría meterme de lleno",
+      "Me parece interesante como concepto",
+      "No me interesa especialmente",
+      "Me genera respeto, pero prefiero no acercarme"
+    ]
+  },
+  {
+    "q": "¿Cómo reaccionas ante el fracaso?",
+    "opts": [
+      "Me levanto y lo intento de nuevo de inmediato",
+      "Lo proceso en silencio y aprendo de ello",
+      "Me afecta mucho, me preocupa decepcionar",
+      "No me afecta si hice lo que tenía que hacer"
+    ]
+  },
+  {
+    "q": "¿Qué entorno te hace sentir más cómodo/a?",
+    "opts": [
+      "Oscuro, tranquilo y algo misterioso",
+      "Concurrido y lleno de energía",
+      "Mi hogar o un espacio familiar y cómodo",
+      "Un espacio de orden y eficiencia"
+    ]
+  },
+  {
+    "q": "¿Qué importancia tiene el trabajo en tu vida?",
+    "opts": [
+      "Es mi razón de ser, me dedico completamente",
+      "Me encanta pero sé equilibrarlo",
+      "Trabajo para vivir, no vivo para trabajar",
+      "El trabajo es emocionante cuando me apasiona"
+    ]
+  },
+  {
+    "q": "¿Qué tipo de personas te sacan de quicio?",
+    "opts": [
+      "Los cobardes o los que no se esfuerzan",
+      "Los que son demasiado ruidosos o impredecibles",
+      "Los que mienten o manipulan sin escrúpulos",
+      "Los aburridos y predecibles"
+    ]
+  },
+  {
+    "q": "¿Cómo reaccionas cuando alguien te decepciona?",
+    "opts": [
+      "Lo digo de frente, sin vueltas",
+      "Me lo guardo, pero no lo olvido",
+      "Lo perdono con facilidad, no soy de guardar rencor",
+      "Depende de quién sea y cuánto me importa"
+    ]
+  },
+  {
+    "q": "¿Qué tipo de primera cita sería perfecta para ti?",
+    "opts": [
+      "Una competencia o actividad física — que haya acción",
+      "Cena elegante, buen ambiente y conversación profunda",
+      "Algo oscuro y misterioso: película de terror o lugar extraño",
+      "Algo simple y sin pretensiones — comida rica y charlar"
+    ]
+  },
+  {
+    "q": "¿Cuánto tardas en abrirte con alguien nuevo?",
+    "opts": [
+      "Mucho tiempo, soy muy reservado/a",
+      "Depende de quién sea, lo evalúo",
+      "Poco a poco, con el tiempo",
+      "Soy muy abierto/a desde el primer momento"
+    ]
+  },
+  {
+    "q": "¿Qué importancia le das a la lealtad?",
+    "opts": [
+      "Es lo más importante, sin ella no hay nada",
+      "Es fundamental, pero debe ganarse primero",
+      "La lealtad viene con el afecto, no se exige",
+      "Creo en la libertad individual antes que nada"
+    ]
+  },
+  {
+    "q": "¿Qué tipo de película elegirías ver?",
+    "opts": [
+      "Acción, peleas y explosiones",
+      "Terror, misterio o sobrenatural",
+      "Drama profundo y emotivo",
+      "Comedia o algo relajado"
+    ]
+  },
+  {
+    "q": "¿Cómo manejas tu vida emocional?",
+    "opts": [
+      "En total secreto, nadie lo sabe",
+      "Lo comparto solo con personas muy cercanas",
+      "Soy bastante abierto/a emocionalmente",
+      "Mezclo el humor con lo emocional"
+    ]
+  },
+  {
+    "q": "¿Qué importancia tienen la tradición y el respeto?",
+    "opts": [
+      "Son centrales en mi vida",
+      "Los respeto pero no me definen",
+      "Los tomo como guía, no como ley",
+      "Las tradiciones me resultan limitantes"
+    ]
+  },
+  {
+    "q": "¿Qué tipo de reto prefieres?",
+    "opts": [
+      "Físico: combate, resistencia, fuerza",
+      "Intelectual: estrategia, ajedrez, acertijos",
+      "Emocional o creativo: arte, música, escritura",
+      "Improvisación pura en el caos"
+    ]
+  },
+
+  {
+    "q": "¿Qué frase de alguien te afectaría más?",
+    "opts": [
+      "\"No eres suficientemente bueno/a\"",
+      "\"Eres demasiado intenso/a e impredecible\"",
+      "\"No puedo confiar en ti\"",
+      "\"Eres demasiado cerrado/a con los demás\""
+    ]
+  },
+  {
+    "q": "¿Qué frase describe mejor tu actitud ante la vida?",
+    "opts": [
+      "\"La perfección es el estándar mínimo\"",
+      "\"Vive rápido, sin mirar atrás\"",
+      "\"Lo desconocido es lo más interesante\"",
+      "\"Las personas que amo son mi razón\""
+    ]
+  }
+]

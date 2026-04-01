@@ -1,0 +1,638 @@
+[
+  {
+    "multi": true,
+    "opts": [
+      {
+        "intensity": 3,
+        "resilience": 2
+      },
+      {
+        "warmth": 2,
+        "freedom": 2,
+        "sensitivity": 1
+      },
+      {
+        "mystery": 2,
+        "intellect": 2,
+        "sensitivity": 1
+      },
+      {
+        "freedom": 3,
+        "creativity": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "loyalty": 3,
+        "resilience": 2
+      },
+      {
+        "warmth": 3,
+        "sociability": 2
+      },
+      {
+        "sensitivity": 2,
+        "loyalty": 2,
+        "mystery": 1
+      },
+      {
+        "playfulness": 3,
+        "sociability": 2
+      }
+    ]
+  },
+  {
+    "multi": true,
+    "opts": [
+      {
+        "mystery": 3,
+        "playfulness": 2
+      },
+      {
+        "intensity": 2,
+        "sociability": 2,
+        "playfulness": 1
+      },
+      {
+        "intellect": 3,
+        "creativity": 2
+      },
+      {
+        "discipline": 2,
+        "loyalty": 2,
+        "sensitivity": 1
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "discipline": 4,
+        "resilience": 1
+      },
+      {
+        "freedom": 3,
+        "playfulness": 2
+      },
+      {
+        "intellect": 3,
+        "discipline": 2
+      },
+      {
+        "freedom": 4,
+        "creativity": 1
+      }
+    ]
+  },
+  {
+    "multi": true,
+    "opts": [
+      {
+        "loyalty": 3,
+        "discipline": 2
+      },
+      {
+        "warmth": 3,
+        "sensitivity": 2
+      },
+      {
+        "intellect": 3,
+        "creativity": 2
+      },
+      {
+        "loyalty": 3,
+        "resilience": 2
+      }
+    ]
+  },
+  {
+    "multi": true,
+    "opts": [
+      {
+        "intensity": 3,
+        "resilience": 2
+      },
+      {
+        "discipline": 2,
+        "creativity": 2,
+        "intellect": 1
+      },
+      {
+        "mystery": 3,
+        "creativity": 2
+      },
+      {
+        "freedom": 2,
+        "sociability": 2,
+        "warmth": 1
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "intensity": 3,
+        "resilience": 2
+      },
+      {
+        "intellect": 3,
+        "discipline": 2
+      },
+      {
+        "loyalty": 3,
+        "warmth": 2
+      },
+      {
+        "sensitivity": 3,
+        "warmth": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "warmth": 3,
+        "loyalty": 1,
+        "sensitivity": 1
+      },
+      {
+        "freedom": 2,
+        "sociability": 2,
+        "intensity": 1
+      },
+      {
+        "discipline": 3,
+        "creativity": 2
+      },
+      {
+        "playfulness": 3,
+        "warmth": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "discipline": 2,
+        "resilience": 2,
+        "loyalty": 1
+      },
+      {
+        "sociability": 2,
+        "intensity": 2,
+        "loyalty": 1
+      },
+      {
+        "playfulness": 3,
+        "mystery": 2
+      },
+      {
+        "intellect": 2,
+        "sensitivity": 2,
+        "creativity": 1
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "loyalty": 3,
+        "sensitivity": 2
+      },
+      {
+        "intensity": 3,
+        "freedom": 2
+      },
+      {
+        "discipline": 3,
+        "resilience": 2
+      },
+      {
+        "mystery": 3,
+        "freedom": 2
+      }
+    ]
+  },
+  {
+    "multi": true,
+    "opts": [
+      {
+        "intensity": 3,
+        "resilience": 2
+      },
+      {
+        "sociability": 2,
+        "warmth": 2,
+        "playfulness": 1
+      },
+      {
+        "intellect": 3,
+        "mystery": 2
+      },
+      {
+        "discipline": 4,
+        "resilience": 1
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "sociability": 4,
+        "playfulness": 1
+      },
+      {
+        "loyalty": 3,
+        "resilience": 2
+      },
+      {
+        "mystery": 3,
+        "intellect": 2
+      },
+      {
+        "sensitivity": 3,
+        "mystery": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "intensity": 3,
+        "resilience": 2
+      },
+      {
+        "intellect": 3,
+        "creativity": 2
+      },
+      {
+        "warmth": 3,
+        "sensitivity": 2
+      },
+      {
+        "loyalty": 3,
+        "discipline": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "discipline": 3,
+        "resilience": 2
+      },
+      {
+        "mystery": 2,
+        "intellect": 2,
+        "intensity": 1
+      },
+      {
+        "warmth": 3,
+        "sensitivity": 2
+      },
+      {
+        "freedom": 3,
+        "playfulness": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "mystery": 4,
+        "creativity": 1
+      },
+      {
+        "intellect": 2,
+        "mystery": 2,
+        "creativity": 1
+      },
+      {
+        "discipline": 3,
+        "resilience": 2
+      },
+      {
+        "sensitivity": 2,
+        "warmth": 2,
+        "discipline": 1
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "resilience": 4,
+        "intensity": 1
+      },
+      {
+        "intellect": 2,
+        "mystery": 2,
+        "sensitivity": 1
+      },
+      {
+        "sensitivity": 3,
+        "warmth": 2
+      },
+      {
+        "discipline": 3,
+        "freedom": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "mystery": 3,
+        "creativity": 2
+      },
+      {
+        "sociability": 3,
+        "intensity": 2
+      },
+      {
+        "warmth": 3,
+        "loyalty": 2
+      },
+      {
+        "discipline": 3,
+        "intellect": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "discipline": 3,
+        "resilience": 2
+      },
+      {
+        "intellect": 2,
+        "warmth": 2,
+        "sociability": 1
+      },
+      {
+        "freedom": 3,
+        "playfulness": 2
+      },
+      {
+        "creativity": 3,
+        "intensity": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "resilience": 3,
+        "intensity": 2
+      },
+      {
+        "discipline": 3,
+        "intellect": 2
+      },
+      {
+        "loyalty": 3,
+        "sensitivity": 2
+      },
+      {
+        "freedom": 3,
+        "playfulness": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "intensity": 2,
+        "loyalty": 2,
+        "sociability": 1
+      },
+      {
+        "mystery": 2,
+        "resilience": 2,
+        "discipline": 1
+      },
+      {
+        "warmth": 3,
+        "sensitivity": 2
+      },
+      {
+        "intellect": 2,
+        "loyalty": 2,
+        "sensitivity": 1
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "intensity": 3,
+        "resilience": 2
+      },
+      {
+        "discipline": 2,
+        "intellect": 2,
+        "creativity": 1
+      },
+      {
+        "mystery": 3,
+        "playfulness": 2
+      },
+      {
+        "warmth": 3,
+        "freedom": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "mystery": 3,
+        "resilience": 2
+      },
+      {
+        "intellect": 3,
+        "discipline": 2
+      },
+      {
+        "sensitivity": 2,
+        "loyalty": 2,
+        "warmth": 1
+      },
+      {
+        "sociability": 3,
+        "playfulness": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "loyalty": 4,
+        "resilience": 1
+      },
+      {
+        "loyalty": 2,
+        "discipline": 2,
+        "intellect": 1
+      },
+      {
+        "warmth": 3,
+        "sensitivity": 2
+      },
+      {
+        "freedom": 4,
+        "creativity": 1
+      }
+    ]
+  },
+  {
+    "multi": true,
+    "opts": [
+      {
+        "intensity": 3,
+        "resilience": 2
+      },
+      {
+        "mystery": 3,
+        "creativity": 2
+      },
+      {
+        "sensitivity": 3,
+        "warmth": 2
+      },
+      {
+        "playfulness": 3,
+        "sociability": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "mystery": 3,
+        "resilience": 2
+      },
+      {
+        "loyalty": 2,
+        "sensitivity": 2,
+        "warmth": 1
+      },
+      {
+        "sociability": 3,
+        "warmth": 2
+      },
+      {
+        "playfulness": 3,
+        "creativity": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "discipline": 3,
+        "loyalty": 2
+      },
+      {
+        "intellect": 2,
+        "resilience": 2,
+        "freedom": 1
+      },
+      {
+        "warmth": 2,
+        "creativity": 2,
+        "sensitivity": 1
+      },
+      {
+        "freedom": 3,
+        "playfulness": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "intensity": 3,
+        "resilience": 2
+      },
+      {
+        "intellect": 4,
+        "discipline": 1
+      },
+      {
+        "creativity": 3,
+        "sensitivity": 2
+      },
+      {
+        "freedom": 3,
+        "playfulness": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "resilience": 3,
+        "sensitivity": 2
+      },
+      {
+        "intensity": 3,
+        "freedom": 2
+      },
+      {
+        "loyalty": 3,
+        "sensitivity": 2
+      },
+      {
+        "mystery": 3,
+        "creativity": 2
+      }
+    ]
+  },
+  {
+    "multi": false,
+    "opts": [
+      {
+        "discipline": 3,
+        "resilience": 2
+      },
+      {
+        "intensity": 3,
+        "freedom": 2
+      },
+      {
+        "mystery": 3,
+        "creativity": 2
+      },
+      {
+        "loyalty": 3,
+        "warmth": 2
+      }
+    ]
+  }
+]

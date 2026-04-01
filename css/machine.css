@@ -1,0 +1,329 @@
+.device {
+  width: 100%;
+  max-width: 680px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@keyframes grip-up {
+  from { background-position-y: 0px; }
+  to { background-position-y: -120px; }
+}
+
+@keyframes grip-down {
+  from { background-position-y: 0px; }
+  to { background-position-y: 120px; }
+}
+
+.device::before,
+.device::after {
+  content: '';
+  position: fixed;
+  top: 0; bottom: 0;
+  width: 10px;
+  background-image: linear-gradient(
+    180deg,
+    var(--orange) 0px, var(--orange) 8px,
+    var(--orange-dim) 8px, var(--orange-dim) 12px
+  );
+  background-size: 10px 12px;
+  background-repeat: repeat-y;
+  z-index: 100;
+}
+
+.device::before {
+  left: 0;
+  animation: grip-up 1.6s linear infinite;
+}
+
+.device::after  {
+  right: 0;
+  animation: grip-down 1.6s linear infinite;
+}
+
+.machine-top {
+  background: var(--panel);
+  border-bottom: 3px solid var(--orange);
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.machine-top::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--orange);
+}
+
+.pull-tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.pull-tab {
+  width: 28px;
+  height: 14px;
+  background: linear-gradient(180deg, var(--orange2) 0%, var(--orange) 60%, #a03a00 100%);
+  border-radius: 0 0 4px 4px;
+  box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.pull-tab::after {
+  content: '';
+  position: absolute;
+  top: 3px; left: 50%; transform: translateX(-50%);
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.4);
+}
+
+.machine-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px 14px;
+  gap: 16px;
+}
+
+.machine-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.machine-logo-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 2px;
+}
+
+.machine-logo-lines span {
+  display: block;
+  height: 3px;
+  background: var(--orange);
+  border-radius: 1px;
+}
+
+.machine-logo-lines span:nth-child(1) {
+  width: 28px; 
+}
+
+.machine-logo-lines span:nth-child(2) {
+  width: 22px; 
+}
+
+.machine-logo-lines span:nth-child(3) {
+  width: 16px; 
+}
+
+.machine-name {
+  font-family: var(--font-head);
+  font-size: clamp(28px, 7vw, 48px);
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.machine-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.machine-badge {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--orange);
+  border: 1px solid var(--orange-dim);
+  padding: 2px 6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: rgba(232,94,0,0.08);
+}
+
+.machine-badge-dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--orange);
+  animation: blink 1.4s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.machine-emblem {
+  width: 64px; height: 64px;
+  border-radius: 50%;
+  background: var(--panel2);
+  border: 2px solid var(--border-hi);
+  box-shadow: var(--inset), 0 0 0 4px var(--border-lo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.machine-emblem::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  border: 1px solid var(--border-hi);
+}
+
+.machine-emblem svg {
+  width: 28px; height: 28px;
+  fill: none;
+  stroke: var(--orange);
+  stroke-width: 2;
+  opacity: 0.8;
+}
+
+.lcd-ticker {
+  background: #0a0a0a;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 5px 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.lcd-ticker::before,
+.lcd-ticker::after {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 30px;
+  z-index: 2;
+}
+
+.lcd-ticker::before {
+  left: 0;
+  background: linear-gradient(90deg, #0a0a0a, transparent); 
+}
+
+.lcd-ticker::after  {
+  right: 0;
+  background: linear-gradient(270deg, #0a0a0a, transparent); 
+}
+
+.lcd-ticker-inner {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--orange);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  display: inline-block;
+  animation: ticker 18s linear infinite;
+}
+
+@keyframes ticker {
+  from { transform: translateX(100vw); }
+  to { transform: translateX(-100%); }
+}
+
+.content-shell {
+  background: var(--panel);
+  border-left: 2px solid var(--border-hi);
+  border-right: 2px solid var(--border-hi);
+  padding: 20px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-label {
+  text-align: center;
+  font-family: var(--font-head);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: var(--text2);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-label::before,
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border-hi);
+}
+
+.machine-bottom {
+  background: var(--panel);
+  border-top: 3px solid var(--orange);
+  padding: 10px 20px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.lcd-display {
+  background: #0a0e0a;
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 6px 16px;
+  box-shadow: inset 0 1px 6px rgba(0,0,0,0.9), 0 0 12px rgba(0,0,0,0.5);
+  flex: 1;
+  max-width: 320px;
+  overflow: hidden;
+}
+
+@keyframes lcd-bottom-scroll {
+  0% { transform: translateX(340px); }
+  60% { transform: translateX(calc(-100% - 32px)); }
+  100% { transform: translateX(calc(-100% - 32px)); }
+}
+
+.lcd-display-inner {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: #ff9900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  display: inline-block;
+  animation: lcd-bottom-scroll 20s linear infinite;
+  text-shadow: 0 0 8px rgba(255,153,0,0.6);
+}
+
+.machine-indicator {
+  display: flex;
+  gap: 6px;
+}
+
+.indicator-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  border: 1px solid #222;
+}
+
+.indicator-dot.orange {
+  background: var(--orange);
+  box-shadow: 0 0 8px var(--orange);
+  animation: blink 1.4s ease-in-out infinite;
+}
+
+.indicator-dot.dim {
+  background: #2a1500;
+}

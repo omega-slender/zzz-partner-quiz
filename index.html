@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZZZ Partner Quiz</title>
+  <meta name="description"
+    content="Discover which Zenless Zone Zero female agent would be your ideal partner. A personality-based compatibility quiz." />
+
+  <meta property="og:title" content="ZZZ Partner Quiz" />
+  <meta property="og:description"
+    content="Discover which Zenless Zone Zero female agent would be your ideal partner. A personality-based compatibility quiz." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/main-visual.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@omega_slender" />
+  <meta name="twitter:creator" content="@omega_slender" />
+  <meta name="twitter:title" content="ZZZ Partner Quiz" />
+  <meta name="twitter:description"
+    content="Discover which Zenless Zone Zero female agent would be your ideal partner. A personality-based compatibility quiz." />
+  <meta name="twitter:image" content="images/main-visual.jpg" />
+
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/machine.css" />
+  <link rel="stylesheet" href="css/quiz.css" />
+  <link rel="stylesheet" href="css/result.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/credits.css" />
+  <style>
+    #app-loader {
+      visibility: visible;
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      background: #0a0a0a;
+      font-family: 'Courier New', monospace;
+      color: #e85e00;
+      font-size: 13px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    #app-loader .loader-icon {
+      font-size: 32px;
+      animation: loaderPulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes loaderPulse {
+
+      0%,
+      100% {
+        opacity: 0.3;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body style="visibility: hidden;">
+
+  <div id="app-loader">
+    <div class="loader-icon">⚡</div>
+    LOADING SYSTEM...
+  </div>
+  <noscript>
+    <div
+      style="background:#0a0a0a;color:#e85e00;text-align:center;padding:3rem;font-family:'Courier New',monospace;font-size:14px;letter-spacing:2px;">
+      JAVASCRIPT IS REQUIRED
+    </div>
+  </noscript>
+
+  <div class="device">
+    <div class="machine-top anim-load" style="animation-delay:0s">
+      <div class="pull-tabs">
+        <div class="pull-tab"></div>
+        <div class="pull-tab"></div>
+      </div>
+      <div class="machine-title-row">
+        <div class="machine-logo">
+          <div class="machine-logo-lines">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="machine-name">ZENLESS ZONE ZERO</div>
+          <div class="machine-badge-row">
+            <div class="machine-badge">QUIZ</div>
+            <div class="machine-badge-dot"></div>
+            <div class="machine-badge">ONLINE</div>
+          </div>
+        </div>
+        <div class="machine-emblem">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="12" r="3" />
+            <path d="M12 3v3M12 18v3M3 12h3M18 12h3" />
+          </svg>
+        </div>
+      </div>
+      <div class="lcd-ticker">
+        <span class="lcd-ticker-inner" id="lcd-ticker-text"></span>
+      </div>
+    </div>
+    <div class="content-shell">
+      <div class="screen" id="screen-intro">
+        <br>
+        <div class="section-label" id="intro-section-label"></div>
+        <div class="intro-card anim-scale-in" style="animation-delay:0.25s">
+          <div class="intro-icon">📡</div>
+          <h2 id="intro-title"></h2>
+          <p id="intro-desc"></p>
+          <button class="btn-big" id="btn-start" onclick="startQuiz()"></button>
+          <button class="btn-last-result hidden" id="btn-last-result" onclick="showLastResult()"></button>
+          <div class="lang-selector">
+            <button class="lang-btn" data-lang="en" onclick="selectLang('en')">EN</button>
+            <button class="lang-btn" data-lang="es" onclick="selectLang('es')">ES</button>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="screen hidden" id="screen-quiz">
+        <div class="progress-wrap">
+          <div class="progress-meta">
+            <span class="progress-label" id="progress-label"></span>
+            <span class="progress-num" id="prog-num"></span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="prog-bar" style="width: 3.33%"></div>
+          </div>
+        </div>
+        <div class="section-label" id="q-num"></div>
+        <div class="card" id="q-card">
+          <div class="q-text" id="q-text"></div>
+          <div class="options" id="q-options"></div>
+          <div class="btn-wrap">
+            <button class="btn-back disabled" id="btn-back" onclick="prevQuestion()"></button>
+            <button class="btn disabled" id="btn-next" onclick="nextQuestion()"></button>
+          </div>
+        </div>
+      </div>
+      <div class="screen hidden" id="screen-result">
+        <div class="section-label" id="result-section-label"></div>
+        <div class="result-card" id="result-card"></div>
+        <div class="btn-retry-wrap">
+          <button class="btn-retry" id="btn-retry" onclick="resetQuiz()"></button>
+          <button class="btn-save-image" id="btn-save-image" onclick="saveResultAsImage()"></button>
+        </div>
+      </div>
+    </div>
+    <div class="machine-bottom anim-load-up" style="animation-delay:0.15s">
+      <div class="lcd-display">
+        <div class="lcd-display-inner" id="lcd-text"></div>
+      </div>
+      <div class="machine-indicator">
+        <div class="indicator-dot orange"></div>
+        <div class="indicator-dot dim"></div>
+        <div class="indicator-dot dim"></div>
+      </div>
+    </div>
+  </div>
+  <div class="credits-bar anim-load-up" style="animation-delay:0.35s">
+    <div class="credits-topbar">
+      <span class="credits-topbar-line"></span>
+      <span class="credits-topbar-label" id="credits-staff"></span>
+      <span class="credits-topbar-line"></span>
+    </div>
+    <div class="credits-inner">
+      <div class="credits-persons">
+        <div class="credit-card">
+          <div class="credit-card-role" id="credits-created-by"></div>
+          <a href="https://linktr.ee/omega_slender" target="_blank" rel="noopener noreferrer"
+            class="credit-card-name">OMEGA SLENDER</a>
+        </div>
+        <div class="credits-vert-divider"></div>
+        <div class="credit-card">
+          <div class="credit-card-role" id="credits-correction"></div>
+          <a href="https://x.com/JoshuaSk14" target="_blank" rel="noopener noreferrer"
+            class="credit-card-name">JOSHUASK</a>
+        </div>
+      </div>
+      <div class="credits-actions">
+        <div class="credits-social">
+          <a href="https://x.com/omega_slender" target="_blank" rel="noopener noreferrer" title="X (Twitter)"
+            aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/omega_slender" target="_blank" rel="noopener noreferrer" title="Instagram"
+            aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm3.98-10.181a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z" />
+            </svg>
+          </a>
+          <a href="https://bsky.app/profile/omega-slender.bsky.social" target="_blank" rel="noopener noreferrer"
+            title="Bluesky" aria-label="Bluesky">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path
+                d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.905C2.566 1.07 1.259 1.558.85 2.1c-.81 1.074-.459 3.791-.183 5.385.64 3.737 3.684 4.706 6.136 4.912-2.822.11-5.753.865-6.621 3.51-.767 2.339.757 4.095 2.684 4.717 1.766.57 5.378.114 9.134-4.223 3.756 4.337 7.368 4.793 9.135 4.223 1.926-.622 3.45-2.378 2.684-4.717-.868-2.645-3.8-3.4-6.621-3.51 2.452-.206 5.496-1.175 6.136-4.912.276-1.594.627-4.31-.183-5.385-.41-.542-1.716-1.03-4.352.795-2.752 1.852-5.711 5.791-6.798 7.905z" />
+            </svg>
+          </a>
+          <a href="https://github.com/omega-slender" target="_blank" rel="noopener noreferrer" title="GitHub"
+            aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+          </a>
+          <a href="https://omega-slender.itch.io" target="_blank" rel="noopener noreferrer" title="Itch.io"
+            aria-label="Itch.io">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path
+                d="M4.095 5.767l2.844-3.045C8.078 1.505 9.421.564 11.088.564h1.824c1.667 0 3.01.94 4.15 2.158l2.842 3.045H4.095zm-.246 1.745c-.443 0-.805.377-.805.84v5.04c0 3.483 3.082 4.195 5.714 4.568.16.02.316.037.47.05v-1.688A1.18 1.18 0 0110.428 15h3.14a1.18 1.18 0 011.196 1.16v1.737c.187-.015.379-.035.578-.06 2.636-.37 5.72-1.084 5.72-4.565v-5.04c0-.463-.362-.84-.805-.84H3.849zm4.272 2.373a1.442 1.442 0 11-2.884 0 1.442 1.442 0 012.884 0zm7.124 0a1.442 1.442 0 11-2.884 0 1.442 1.442 0 012.884 0zM12.016 17.74v2.094c-1.874 0-3.355.828-4.041 2.274-1.229 2.583 1.259 2.059 4.041 2.059 2.783 0 5.27.524 4.042-2.059-.687-1.446-2.168-2.274-4.042-2.274z" />
+            </svg>
+          </a>
+        </div>
+        <a href="https://ko-fi.com/omega_slender" target="_blank" rel="noopener noreferrer" class="credits-kofi"
+          aria-label="Ko-fi">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path
+              d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.423 3.141c-.085.405-.436 1.432-1.511 1.511z" />
+          </svg>
+          Ko-fi
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup-overlay hidden" id="popup-resume">
+    <div class="popup-card">
+      <div class="popup-icon">⚡</div>
+      <div class="popup-title" id="popup-title"></div>
+      <p class="popup-desc" id="popup-desc"></p>
+      <div class="popup-btns">
+        <button class="popup-btn popup-btn-secondary" id="popup-restart" onclick="dismissPopup(false)"></button>
+        <button class="popup-btn popup-btn-primary" id="popup-resume-btn" onclick="dismissPopup(true)"></button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

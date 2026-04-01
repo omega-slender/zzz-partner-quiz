@@ -1,0 +1,41 @@
+{
+  "ranks": {
+    "s": "S Rank",
+    "a": "A Rank"
+  },
+  "factions": {
+    "victoria": "Victoria Housekeeping Co.",
+    "spook_shack": "Spook Shack",
+    "cunning_hares": "Cunning Hares",
+    "angels": "Angels of Delusion",
+    "sons": "Sons of Calydon",
+    "metro_order": "Metropolitan Order Division",
+    "belobog": "Belobog Heavy Industries",
+    "krampus": "Krampus Compliance Authority",
+    "section6": "Section 6",
+    "cist": "Criminal Investigation Special Response Team",
+    "yunkui": "Yunkui Summit",
+    "obol": "Obol Squad",
+    "lyra": "Stars of Lyra",
+    "mockingbird": "Mockingbird",
+    "silver_batallion": "Defense Force - Silver Squad"
+  },
+  "elements": {
+    "fire": "Fire",
+    "ice": "Ice",
+    "electric": "Electric",
+    "physical": "Physical",
+    "ether": "Ether",
+    "sharp_blade": "Sharp",
+    "auric_ink": "Auric Ink",
+    "frost": "Frost"
+  },
+  "roles": {
+    "anomaly": "Anomaly",
+    "stun": "Stun",
+    "attack": "Attack",
+    "defense": "Defense",
+    "support": "Support",
+    "disruptive": "Disruption"
+  }
+}

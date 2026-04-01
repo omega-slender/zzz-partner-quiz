@@ -1,0 +1,41 @@
+{
+  "ranks": {
+    "s": "Rango S",
+    "a": "Rango A"
+  },
+  "factions": {
+    "victoria": "Servicios Domésticos Victoria",
+    "spook_shack": "Cabaña del Terror",
+    "cunning_hares": "Liebres Astutas",
+    "angels": "Ángeles de la Delusión",
+    "sons": "Hijos de Calidón",
+    "metro_order": "División de Orden Metropolitano",
+    "belobog": "Construcciones Belobog",
+    "krampus": "Auditoría Krampus",
+    "section6": "División N.º 6",
+    "cist": "Equipo de Respuesta de la Unidad de Investigación Criminal",
+    "yunkui": "Pináculo Yunkui",
+    "obol": "Batallón Óbolos",
+    "lyra": "Estrellas de Lyra",
+    "mockingbird": "Ruiseñor",
+    "silver_batallion": "Batallón Argente del Ministerio de Defensa"
+  },
+  "elements": {
+    "fire": "Ígneo",
+    "ice": "Glacial",
+    "electric": "Eléctrico",
+    "physical": "Físico",
+    "ether": "Etéreo",
+    "sharp_blade": "Hoja afilada",
+    "auric_ink": "Tinta áurica",
+    "frost": "Gélido"
+  },
+  "roles": {
+    "anomaly": "Anómalo",
+    "stun": "Aturdidor",
+    "attack": "Atacante",
+    "defense": "Defensivo",
+    "support": "Auxiliar",
+    "disruptive": "Disruptivo"
+  }
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "astra",
+    "name": "Astra Yao",
+    "personality": "Bajo los reflectores es 'La Reina', la superestrella indiscutible de Nueva Eridu. Sin embargo, en su vida diaria es una chica burbujeante, algo torpe y extremadamente curiosa. Odia las reglas estrictas de su empresa y frecuentemente se escabulle para explorar la ciudad, dependiendo de su guardaespaldas y amiga Evelyn para que la saque de apuros.",
+    "likes": "Cantar para el mundo, escapar del trabajo para explorar la ciudad, interactuar con sus fans y la magia del escenario.",
+    "partner": "Alguien que la trate como una persona normal en lugar de idolatrarla. Que tenga la energía para seguirle el ritmo en sus escapes rebeldes y el instinto para cuidarla cuando su torpeza natural la meta en problemas.",
+    "why": "Tu disposición a la aventura y tu capacidad para ofrecer un refugio seguro ante el caos encajan perfecto con Astra. No te dejas deslumbrar por 'La Reina', sino que conectas genuinamente con la chica que solo quiere sentirse libre."
+  },
+  {
+    "id": "alexandrina",
+    "name": "Alexandrina Sebastiane",
+    "personality": "Impecablemente elegante, reservada y profesional. Le preocupa mucho la impresión que causa en los demás. Bajo esa superficie perfecta hay un lado maternal callado que protege a sus colegas de Victoria sin que nadie lo note.",
+    "likes": "La excelencia, el orden, el té de alta calidad, la música clásica, la cocina.",
+    "partner": "Alguien refinado, discreto y capaz de estar a su altura sin doblegarse.",
+    "why": "Tu refinamiento y preferencia por el orden reflejan exactamente los estándares que Alexandrina exige. En su mundo, la mediocridad no tiene lugar — y tus respuestas sugieren que tampoco en el tuyo."
+  },
+  {
+    "id": "alice",
+    "name": "Alice Thymefield",
+    "personality": "Tímida, ansiosa y fácilmente asustable, pero con una voluntad inquebrantable cuando se lo propone. Tiene una obsesión casi compulsiva con la simetría — si algo está fuera de lugar, le resulta insoportable.",
+    "likes": "La simetría perfecta, la esgrima, las ciencias del éter, las historias sobrenaturales (aunque le den miedo), Für Elise de Beethoven.",
+    "partner": "Alguien que respete su sentido del orden y no la asuste a propósito. Que la acompañe en sus investigaciones paranormales con calma y seriedad.",
+    "why": "Tu calma y tu capacidad de estar presente sin generar caos son exactamente lo que Alice necesita. No la asustas, no alteras su simetría — y eso, viniendo de ella, es el mayor cumplido que existe."
+  },
+  {
+    "id": "anby",
+    "name": "Anby Demara",
+    "personality": "Seria y de pocas palabras. Leal al extremo con quienes considera familia. Corazón cálido bajo la superficie.",
+    "likes": "Las hamburguesas, las películas, los entrenamientos solitarios.",
+    "partner": "Alguien tranquilo y confiable que no la presione a hablar. Que le compre hamburguesas.",
+    "why": "Tu naturaleza tranquila y directa resuena con Anby. No la presionas a hablar más de lo necesario, respetas su silencio y probablemente le comprarías esas hamburguesas sin que te lo pida."
+  },
+  {
+    "id": "aria",
+    "name": "Aria",
+    "personality": "Dulce, insegura con su naturaleza como constructo, pero genuinamente apasionada por cantar. Con su voz transmite fuerza y calidez a sus alucines.",
+    "likes": "Cantar, la música, pasar tiempo con sus compañeras, su mayor ídolo: Cersea.",
+    "partner": "Alguien que la vea como una persona, no como una máquina. Paciente, cariñoso y que aprecie su música.",
+    "why": "Tu paciencia, calidez y capacidad de ver a las personas más allá de las apariencias son exactamente lo que Aria necesita. Para ella, que la traten como persona — no como constructo — lo es todo."
+  },
+  {
+    "id": "burnice",
+    "name": "Burnice White",
+    "personality": "Extrovertida, espontánea y contagiosamente optimista. Es capaz de arrastrar a todos a su misma energía sin que se den cuenta. Tiene un lado oscuro que nadie ha visto — y quienes la conocen dicen que es mejor que siga siendo así.",
+    "likes": "El nitrocombustible, las llamas, mezclar cócteles, las peleas emocionantes, las motos, salir de fiesta.",
+    "partner": "Alguien que no tenga miedo de su intensidad y la iguale en energía. Que ame la libertad tanto como ella.",
+    "why": "Tu amor por la intensidad, la libertad y vivir sin límites hace clic con Burnice. No la frenas — la igualas — y eso para ella vale más que cualquier otra cosa."
+  },
+  {
+    "id": "caesar",
+    "name": "Caesar King",
+    "personality": "Imponente, dominante y protectora. Parece dura, pero es extremadamente leal y tiene un lado tierno con quienes se ganan su confianza.",
+    "likes": "Las motos, la lealtad, los retos físicos, la comida callejera, la honestidad directa.",
+    "partner": "Alguien que no le tema y sea genuinamente honesto. Que pueda mirarla a los ojos sin temblar.",
+    "why": "Tu honestidad directa y disposición a mirar a Caesar a los ojos sin temblar son exactamente las cualidades que ella respeta. No le tienes miedo, y eso la atrae."
+  },
+  {
+    "id": "cissia",
+    "name": "Cissia",
+    "personality": "Despreocupada, hambrienta y aparentemente vaga, pero con instintos investigativos sorprendentemente afilados. Sigue su propio código: si te gusta algo, lo muerdes y no sueltas.",
+    "likes": "La comida (lo que sea, donde sea), las siestas, los casos interesantes.",
+    "partner": "Alguien que le lleve comida y no la juzgue por ser 'vaga'. Que la entretenga y despierte su curiosidad.",
+    "why": "Tu forma relajada de encarar la vida, sin juzgar y siempre dispuesto/a a pasar el rato, encaja perfectamente con Cissia. Y si le llevas algo de comer, ya ganaste."
+  },
+  {
+    "id": "corin",
+    "name": "Corin Wickes",
+    "personality": "Ansiosa, tímida y fácilmente asustable, pero con una determinación enorme. Se preocupa mucho por no ser suficientemente buena.",
+    "likes": "La repostería, limpiar con esmero, los animales pequeños, recibir reconocimiento.",
+    "partner": "Alguien paciente y amable que la apoye sin presionarla. Que aprecie el esfuerzo aunque el resultado no sea perfecto.",
+    "why": "Tu paciencia y apoyo constante son exactamente lo que Corin necesita para florecer. Aprecias el esfuerzo aunque el resultado no sea perfecto, y eso para ella lo es todo."
+  },
+  {
+    "id": "dialyn",
+    "name": "Dialyn",
+    "personality": "Irónica, mordaz y con una sonrisa que puede estar diciéndote lo peor del mundo sin que te des cuenta. Bajo esa fachada de representante de atención al cliente hay una jueza que siempre llega a la verdad, porque desde niña escucha las voces de quienes están a punto de morir dentro de las Cavidades.",
+    "likes": "El orden, los datos precisos, la eficiencia y las misiones bien ejecutadas. El café sin azúcar.",
+    "partner": "Alguien que respete su tiempo y espacio. Que sea competente y no necesite que le expliquen todo dos veces.",
+    "why": "Tu eficiencia, respeto por el tiempo ajeno y competencia natural son exactamente lo que Dialyn requiere en alguien. No necesitas que te explique las cosas dos veces — ya llegaste al nivel."
+  },
+  {
+    "id": "ellen",
+    "name": "Ellen Joe",
+    "personality": "De naturaleza tranquila, detesta cualquier cosa que requiera demasiado esfuerzo. Gracias al trabajo de sus compañeros de equipo, puede demostrar su gran fuerza en los momentos decisivos.",
+    "likes": "Las siestas, los días libres, la comida simple, los dulces.",
+    "partner": "Alguien relajado que no la presione y disfrute de los placeres simples como ella.",
+    "why": "Tu naturaleza relajada y capacidad de disfrutar las cosas simples hacen match perfecto con Ellen. No la presionas a mantener su imagen profesional cuando no es necesario, y eso la libera."
+  },
+  {
+    "id": "evelyn",
+    "name": "Evelyn Chevalier",
+    "personality": "Seria, calculadora y extremadamente competente. Devota a Astra más allá del deber. Un fondo de calidez que raramente muestra.",
+    "likes": "La eficiencia, la música clásica, el trabajo bien hecho, Astra.",
+    "partner": "Alguien que aprecie su devoción sin explotarla. Que sea capaz de cuidarla también, porque ella nunca lo pediría.",
+    "why": "Tu capacidad de ver más allá de la devoción de Evelyn y cuidarla a ella también — sin que lo pida — es lo que haría que baje la guardia. Ella siempre cuida a otros; tú serías quien la cuide a ella."
+  },
+  {
+    "id": "grace",
+    "name": "Grace Howard",
+    "personality": "Alegre, inteligente y cariñosa. Tiene una paciencia extraordinaria al trabajar con aparatos.",
+    "likes": "Las máquinas, los componentes metálicos y los cables.",
+    "partner": "Alguien curioso e intelectualmente estimulante. Que aprecie su entusiasmo.",
+    "why": "Tu curiosidad intelectual y energía entusiasta son exactamente lo que Grace busca. La estimulas sin cansarla, y aprecias su entusiasmo en lugar de encontrarlo exagerado."
+  },
+  {
+    "id": "hoshimi",
+    "name": "Hoshimi Miyabi",
+    "personality": "Serena, elegante y de autoridad innata. Voluntad de hierro detrás de la compostura. Muy protectora con quienes le importan.",
+    "likes": "La esgrima tradicional, los ejercicios de práctica, su fruta favorita: el melón.",
+    "partner": "Alguien con dignidad y carácter propio. Que no se intimide ante ella pero la respete profundamente.",
+    "why": "Tu dignidad, carácter propio y capacidad de respetar sin someterte son lo que Miyabi valora profundamente. Puedes estar a su altura sin intimidarte, y eso para ella lo dice todo."
+  },
+  {
+    "id": "jane",
+    "name": "Jane Doe",
+    "personality": "Juguetona, seductora y difícil de descifrar. Le encanta provocar reacciones en los demás y tiene el hábito de gastar bromas inocentes o usar el sarcasmo como escudo. Bajo esa fachada hay una mente analítica de primer nivel.",
+    "likes": "La comida rápida (su habitación está llena de ella), el trabajo nocturno, los retos que requieren improvisación, los videojuegos y el arreglo floral.",
+    "partner": "Alguien que no se deje manipular fácilmente pero que tampoco huya de su misterio. Que aprecie sus momentos de sinceridad sin exigirlos.",
+    "why": "Tu respeto por el silencio, tu capacidad de estar presente sin presionar y tu disposición a no retroceder ante su misterio son exactamente lo que Jane Doe busca sin decirlo."
+  },
+  {
+    "id": "ju",
+    "name": "Ju Fufu",
+    "personality": "Orgullosa, apasionada y con un sentido de la justicia muy marcado. Se lleva muy mal con que la confundan con un gato — es tigre, y lo dejará muy claro. La discípula más veterana del Pináculo Yunkui, aunque su estatura engaña a todos.",
+    "likes": "Las películas de artes marciales de tigres, la carne (en cualquier presentación), la justicia, su constructo inteligente Hu Wei.",
+    "partner": "Alguien que la vea como la guerrera formidable que es, no como una niña. Que no la confunda con un gato Thiren.",
+    "why": "Tu aliento constante y tu disposición a verla como la guerrera que es — no como una niña pequeña y tierna — son lo que Ju Fufu más necesita. Crees en ella incluso cuando el resto la subestima."
+  },
+  {
+    "id": "koleda",
+    "name": "Koleda Belobog",
+    "personality": "Tosca, directa y pragmática. Aunque parece dura, su lealtad a su empresa y sus compañeros es absoluta. Delante de todos asume el rol de presidenta seria; en privado, puede que le falte un caramelo.",
+    "likes": "El trabajo duro, la maquinaria pesada, los caramelos (aunque nunca lo admitirá).",
+    "partner": "Alguien tan resistente como ella. Que no la trate con guantes y pueda emparejarse con su energía.",
+    "why": "Tu resistencia, carácter directo y energía sin filtros hacen que Koleda no tenga que moderar su forma de ser contigo. Eso, para alguien tan directa como ella, es un lujo enorme."
+  },
+  {
+    "id": "lucia",
+    "name": "Lucia Elowen",
+    "personality": "Curiosa, de pocas palabras y con una fascinación genuina por lo oculto, las Cavidades y los seres Etéreos. Parece distante, pero es observadora y más perceptiva de lo que aparenta.",
+    "likes": "La precisión, los lugares oscuros y misteriosos, los textos raros, el silencio nocturno.",
+    "partner": "Alguien que respete su silencio y espacio, pero con valentía de acercarse con curiosidad genuina.",
+    "why": "Tu respeto por la independencia ajena, tu curiosidad genuina por lo oscuro y misterioso, y tu valentía para acercarte sin invadir son exactamente lo que Lucia necesita."
+  },
+  {
+    "id": "luciana",
+    "name": "Luciana de Montefio",
+    "personality": "Competitiva, apasionada y con un lenguaje que mezcla elegancia y bravuconería. Guarda secretos sobre su pasado y su conexión con su familia de Nueva Eridu.",
+    "likes": "La libertad, los duelos, sus jabalíes Grassy, Woody y Bricky, ganar, la vida en el Anillo Exterior.",
+    "partner": "Alguien que la conozca más allá de su apellido. Que vea a la persona y no a la familia.",
+    "why": "Tu capacidad de ver a Luciana como persona antes que como apellido, y tu rechazo por las etiquetas sociales, resuenan con lo que ella más desea: ser conocida de verdad."
+  },
+  {
+    "id": "nangong",
+    "name": "Nangong Yu",
+    "personality": "Desenfadada, coqueta y con un talento prodigioso para hacer todo parecer sencillo — desde bailar hasta invertir. Lo que empezó como responsabilidad hacia una amiga se convirtió en un amor genuino e irrenunciable por el escenario y las personas que comparte con ella.",
+    "likes": "El baile, estar en escena, las inversiones rentables y gastarle bromas a Sunna.",
+    "partner": "Alguien que no se paralice ante su coquetería. Seguro de sí mismo, que bromee de vuelta y la vea más allá de la líder.",
+    "why": "Tu seguridad y capacidad de devolverle el juego sin perder el piso son lo que hace que Nangong Yu se interese de verdad. No te paralizas ante su coquetería — y eso cambia todo."
+  },
+  {
+    "id": "nekomata",
+    "name": "Nekomata (Nekomiya Mana)",
+    "personality": "Traviesa, curiosa y siempre dispuesta al juego. Le encanta hacer bromas, tiene un instinto felino para encontrar debilidades ajenas y una atracción irresistible por las carteras de los demás.",
+    "likes": "La caballa (en cualquier presentación), robar carteras, las bromas, la velocidad, los retos que nadie esperaría de alguien de su tamaño.",
+    "partner": "Alguien que no la subestime por su tamaño y pueda seguirle el ritmo. Que no se enoje cuando le desaparezcan las cosas del bolsillo.",
+    "why": "Tu buen humor y capacidad de no tomarte en serio todo el tiempo son exactamente lo que Nekomata necesita en alguien. No te escandalizas si te desaparece la cartera — y eso ya dice mucho."
+  },
+  {
+    "id": "nicole",
+    "name": "Nicole Demara",
+    "personality": "Manipuladora pero con buenas intenciones. Comerciante nata y líder carismática. Adora la buena vida pero protege a los suyos con uñas y dientes.",
+    "likes": "El dinero, los negocios rentables, los banquetes, el reconocimiento, los descuentos.",
+    "partner": "Alguien que no le preste dinero fácilmente pero que la conozca detrás del personaje. Que la haga sentir especial.",
+    "why": "Tu capacidad de ver a Nicole detrás del personaje de líder carismática, sin dejarte manipular fácilmente pero tampoco cerrándote, es exactamente lo que ella busca sin admitirlo."
+  },
+  {
+    "id": "orphie",
+    "name": "Orfia y Magas",
+    "personality": "Orfia es inocente, optimista y llena de energía. Magas es brusca, estricta y de temperamento explosivo — aunque se preocupa profundamente por su escuadrón. Juntas forman un dúo inseparable.",
+    "likes": "Orfia adora los animales (especialmente los gatos callejeros), los sabores de comida inusuales y coleccionar figuras de acción. Magas hace la vista gorda ante todo eso y lo llama 'guía para criar a una joven promesa'.",
+    "partner": "Alguien que acepte a las dos. Si no acepta a Magas, no hay nada que hablar.",
+    "why": "Tu apertura para aceptar a las dos — Orfia y Magas — como un paquete indivisible es la condición sine qua non para que esta relación funcione. Y la cumples."
+  },
+  {
+    "id": "piper",
+    "name": "Piper Wheel",
+    "personality": "Siempre medio dormida cuando no está al volante. Se mueve y habla como si fuera una persona muy mayor, llama a todos 'los chicos' y se comporta como la más veterana de cualquier grupo — aunque nadie sabe con certeza cuántos años tiene.",
+    "likes": "El sonido del motor de Steeltusk, las siestas, los periódicos, los boletos de lotería, las revistas de autos.",
+    "partner": "Alguien que entienda que el silencio y la calma son su lenguaje. Que no intente 'animarla' — ya está bien como está.",
+    "why": "Tu tranquilidad y tu capacidad de no intentar cambiarla son exactamente lo que Piper necesita. Con ella, no hay prisa — y eso, paradójicamente, te hace el compañero/a ideal."
+  },
+  {
+    "id": "pulchra",
+    "name": "Pulchra Fellini",
+    "personality": "Calculadora, directa y leal solo a quien ella considera el más fuerte. Su lema lo dice todo: 'Mi lealtad es del ganador. ¿Y el ganador? Siempre soy yo'.",
+    "likes": "La lealtad demostrada con hechos, la fuerza, los espacios tranquilos donde puede bajar la guardia.",
+    "partner": "Alguien que gane su respeto primero y su confianza después. No hay atajos.",
+    "why": "Tu paciencia para ganarte el respeto primero, sin buscar atajos emocionales, es lo que finalmente le permite a Pulchra bajar la guardia. Con ella, la confianza se construye con hechos."
+  },
+  {
+    "id": "qingyi",
+    "name": "Qingyi",
+    "personality": "Relajada, desenfadada y sin complejos ante las convenciones. A pesar de tener siglos de existencia, propone soluciones inesperadas y prefiere pasar su tiempo libre con los ancianos del barrio.",
+    "likes": "El agua caliente (siempre lleva un termo consigo), jugar ajedrez con los abuelos de la Sexta Calle, los casos interesantes.",
+    "partner": "Alguien que no se sorprenda de que una chica de apariencia joven tenga la sabiduría de una anciana. Que disfrute de las cosas simples.",
+    "why": "Tu tranquilidad, sentido del humor y capacidad de no complicar lo que no necesita complicarse son exactamente lo que Qingyi valora. Con ella, la sabiduría llega sin disfraz."
+  },
+  {
+    "id": "seed",
+    "name": "Sporos",
+    "personality": "Sonrisa permanente en todo momento — incluso en situaciones donde nadie debería sonreír. Directa, impulsiva y algo desconectada de las convenciones sociales, aunque con un expediente de misiones impecable.",
+    "likes": "Las flores, la mecánica, los espacios reducidos y oscuros, comunicarse con los Bangboo (tiene acento).",
+    "partner": "Alguien sereno que no se desconcierte con su sonrisa perpetua. Que la deje hablar con los Bangboo sin juzgarla.",
+    "why": "Tu serenidad y capacidad de habitar el silencio sin llenarlo forzosamente son lo que más le atrae a Sporos. Con ella, el silencio compartido es conexión, no distancia."
+  },
+  {
+    "id": "soldier0",
+    "name": "N.° 0: Anby",
+    "personality": "Fría, metódica y entrenada para eliminar. Sin las capas emocionales que desarrolló con las Liebres Astutas. Destellos de la Anby real bajo la superficie.",
+    "likes": "Las misiones claras, la eficiencia, el orden táctico, el silencio.",
+    "partner": "Alguien que la ayude a recordar quién es realmente. Que sea constante y no la abandone.",
+    "why": "Tu constancia y disposición a ayudarla a recordar quién es realmente — sin forzarla — son exactamente lo que la N.° 0 necesita para reconectarse con su verdadero yo."
+  },
+  {
+    "id": "soldier11",
+    "name": "N.° 11",
+    "personality": "Seria, disciplinada y directa. No malgasta palabras. Leal a sus compañeros de misión hasta las últimas consecuencias.",
+    "likes": "Las misiones claras, el fuego, la eficiencia en combate, la honestidad directa, el picante, el ramen picante, los gatos.",
+    "partner": "Alguien que no mienta y sea tan comprometido como ella. Sin juegos ni indirectas.",
+    "why": "Tu compromiso sin juegos y honestidad directa son exactamente el lenguaje que la N.° 11 entiende. Sin rodeos, sin máscaras — y eso construye una lealtad de las que duran."
+  },
+  {
+    "id": "soukaku",
+    "name": "Soukaku",
+    "personality": "Hambrienta el 90% del tiempo, adorable el 100%. Parece distraída pero es una guerrera formidable.",
+    "likes": "La comida (todo tipo, todo el tiempo), los dulces, los días en que hay buena comida disponible.",
+    "partner": "Alguien que cocine bien o la lleve a buenos restaurantes. Que no la regañe por comer durante una misión.",
+    "why": "Tu entusiasmo genuino por la buena comida y tu disposición a disfrutarla con ella — sin juzgar ni apurar — hacen de Soukaku tu match natural. El camino al corazón de Soukaku pasa por la cocina."
+  },
+  {
+    "id": "sunna",
+    "name": "Sunna",
+    "personality": "Tímida, introvertida y propensa a desaparecer del mundo cuando compone. Se autodenomina 'genio solitaria'. Puede llorar en livestream y no le da vergüenza — o sí, pero tampoco puede evitarlo.",
+    "likes": "Componer música, los dulces con diseño bonito, las velas aromáticas que ella misma hace, su mascota virtual Bubblegum, las noches en el estudio.",
+    "partner": "Alguien que entienda que cuando compone puede desaparecer por días. Que le lleve cupcakes coloridos.",
+    "why": "Tu comprensión de que el proceso creativo requiere desaparecer del mundo, y tu disposición a llegar con un cupcake colorido cuando regresa, son exactamente lo que Sunna necesita."
+  },
+  {
+    "id": "trigger",
+    "name": "Gatillo",
+    "personality": "Calculadora, meticulosa y de pocas palabras. Evalúa cada situación antes de actuar. Tiene un código de honor muy estricto y un lado protector que raramente muestra.",
+    "likes": "La precisión, los disparos perfectos, la planificación táctica, el silencio antes de una misión, los panecillos de judías rojas.",
+    "partner": "Alguien que también piense antes de actuar. Que aprecie su silencio como comunicación.",
+    "why": "Tu capacidad de pensar antes de actuar y de leer el silencio como comunicación real son lo que hace que Gatillo confíe en ti. Con ella, hablar menos puede significar decir más."
+  },
+  {
+    "id": "tsukishiro",
+    "name": "Tsukishiro Yanagi",
+    "personality": "Digna, tranquila y con una profundidad emocional que rara vez muestra. Cuida de su equipo con una devoción callada.",
+    "likes": "El equilibrio, la responsabilidad, el entrenamiento, la tranquilidad nocturna.",
+    "partner": "Alguien que la vea como una persona, no solo como una líder. Que esté ahí en los momentos en que baja la guardia.",
+    "why": "Tu capacidad de ver a Yanagi como persona antes que como líder, y de estar presente en los momentos en que baja la guardia, son lo que construye algo real con ella."
+  },
+  {
+    "id": "ukinami",
+    "name": "Ukinami Yuzuha",
+    "personality": "Traviesa, optimista e impredecible. Es una bromista nata que disfruta desestabilizar a los demás — pero bajo ese exterior caótico hay alguien que nunca supo lo que era tener una familia real, y que ahora cuida de la que tiene con más fuerza de la que aparenta.",
+    "likes": "El horror, los fenómenos paranormales, las historias de terror (nunca cuenta la misma dos veces), su tanuki Kama, apostar.",
+    "partner": "Alguien que vea una película de terror con ella sin dormirse. Que aguante sus bromas sin ponerse serio.",
+    "why": "Tu fascinación por lo desconocido y tu capacidad de ver una película de terror sin huir son la llave de entrada con Yuzuha. Ese contraste — traviesa por fuera, leal por dentro — te resulta irresistible."
+  },
+  {
+    "id": "vivian",
+    "name": "Vivian Banshee",
+    "personality": "Melancólica, artística y con una profundidad emocional muy alta. La música es su manera de procesar el mundo.",
+    "likes": "La música, el arte, los espacios tranquilos, el mar, los momentos íntimos.",
+    "partner": "Alguien que escuche su música con atención real. Que sienta lo que ella intenta transmitir sin que lo explique.",
+    "why": "Tu atención genuina a su música y tu capacidad de sentir lo que intenta transmitir sin necesitar que lo explique son lo que hace que Vivian se sonroje. Es exactamente lo que ella siempre quiso."
+  },
+  {
+    "id": "ye",
+    "name": "Ye Shunguang",
+    "personality": "Severa, reservada y de una fortaleza interna impresionante. No habla en vano. Cuando muestra una emoción, tiene peso real.",
+    "likes": "El entrenamiento, las artes marciales, el honor, los días fríos y claros, la disciplina.",
+    "partner": "Alguien que iguale su dedicación. Que no se intimide ante su frialdad y sea lo suficientemente paciente para conocerla de verdad.",
+    "why": "Tu dedicación, paciencia para llegar a conocerla de verdad y disposición a no intimidarte ante su frialdad son lo que finalmente derriten la reserva de Ye Shunguang."
+  },
+  {
+    "id": "yidhari",
+    "name": "Yidhari Murphy",
+    "personality": "Parece tranquila y despreocupada — pero no es relajación, sino el peso de cargar con los recuerdos de todo lo que pasó en cada lugar que visita. Es escritora de historias de terror y proxy. Sus emociones se van apagando poco a poco por la presión de lo que percibe en las Cavidades.",
+    "likes": "Escribir historias, los baños calientes, los lugares con historia, los recuerdos de los demás.",
+    "partner": "Alguien que la ancle a la realidad con calma. Que no se asuste cuando dice cosas como '¿sabes? Te vi de niño en esa Cavidad'.",
+    "why": "Tu calma y tu capacidad de estar presente sin pedirle nada son el ancla que Yidhari necesita. Alguien tiene que mantenerla en contacto con el presente — y ese alguien eres tú."
+  },
+  {
+    "id": "yixuan",
+    "name": "Yixuan",
+    "personality": "Sabia, elegante y con una paciencia casi sobrehumana. Guía a otros con el ejemplo más que con palabras.",
+    "likes": "La meditación, las artes marciales tradicionales, el té ceremonial, el silencio contemplativo.",
+    "partner": "Alguien con paciencia para aprender y respeto por las tradiciones. Que no espere intimidad rápida.",
+    "why": "Tu paciencia para aprender, respeto por las tradiciones y disposición a construir algo real sin apurar la intimidad son exactamente lo que Yixuan valora en una persona."
+  },
+  {
+    "id": "zhao",
+    "name": "Zhao",
+    "personality": "Parece adorable, pequeña y esponjosa — y lo es. Pero no te dejes engañar: es supervisora de la Autoridad de Cumplimiento de Krampus, y su sola presencia en la puerta de una empresa ya significa problemas serios. Cree en el intercambio equivalente: nadie merece ser visto si no tiene valor que ofrecer.",
+    "likes": "Las verduras, la eficiencia, los contratos bien redactados, el trabajo limpio.",
+    "partner": "Alguien que aporte algo real. Que no espere favores gratis ni trate su amabilidad como debilidad.",
+    "why": "Tu capacidad de aportar algo genuino — sin esperar nada gratis — es exactamente lo que Zhao valora. Con ella, el intercambio tiene que ser equivalente. Y lo tuyo lo cumple."
+  },
+  {
+    "id": "zhu",
+    "name": "Zhu Yuan",
+    "personality": "Profesional, responsable y con un corazón genuinamente comprometido con la seguridad ciudadana. Bajo la seriedad hay calidez real — y algún que otro momento adorablemente torpe que preferiría que nadie viera.",
+    "likes": "Su trabajo, proteger a los ciudadanos, el ramen, cultivar su planta de tomates en la oficina, los momentos de tranquilidad.",
+    "partner": "Alguien que respete su dedicación al trabajo y no la presione a dejarlo. Que esté ahí después de las misiones largas.",
+    "why": "Tu respeto por la dedicación al trabajo de Zhu Yuan y tu disposición a estar presente después de las misiones largas son lo que finalmente la dejan mostrar la calidez que lleva dentro."
+  }
+]
