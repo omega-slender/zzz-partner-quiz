@@ -103,4 +103,4 @@ This project is released under a **Custom All Rights Reserved License**. You may
 
 ---
 
-⭐ If you find this library useful, consider giving it a star!
+⭐ If you liked my portfolio, consider giving it a star!
