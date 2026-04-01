@@ -1,6 +1,6 @@
-# ZZZ Partner Quiz ⚡💘
+# ZZZ Match Quiz ⚡💘
 
-A personality-based web quiz that discovers which female agent from **Zenless Zone Zero** would be your ideal partner. Built with vanilla HTML, CSS, and JavaScript, featuring a cassette-player / EZStudio aesthetic, animated backgrounds, multilingual support (EN/ES), and a save-result system.
+A personality-based web quiz that discovers which female agent from **Zenless Zone Zero** would be your ideal match. Built with vanilla HTML, CSS, and JavaScript, featuring a cassette-player / EZStudio aesthetic, animated backgrounds, multilingual support (EN/ES), and a save-result system.
 
 > ⚠️ **This is an unofficial fan project.** It is not affiliated with, endorsed by, or associated with miHoYo / HoYoverse in any way. All rights to Zenless Zone Zero, its characters, names, images, and lore belong exclusively to **miHoYo / HoYoverse**.
 
@@ -8,7 +8,7 @@ A personality-based web quiz that discovers which female agent from **Zenless Zo
 
 ## 🎯 Overview
 
-ZZZ Partner Quiz is a personal and portfolio project inspired by the world of Zenless Zone Zero. It presents the player with a series of personality questions and uses a trait-alignment scoring system to match them with one of several female agents from the game. Results include a compatibility score, a character banner with dynamic visual effects, and a top-3 ranking.
+ZZZ Match Quiz is a personal and portfolio project inspired by the world of Zenless Zone Zero. It presents the player with a series of personality questions and uses a trait-alignment scoring system to match them with one of several female agents from the game. Results include a compatibility score, a character banner with dynamic visual effects, and a top-3 ranking.
 
 The quiz is fully bilingual (English and Spanish), saves progress locally so you can resume a session, and lets you save your result as an image to share.
 
@@ -46,7 +46,7 @@ The quiz is fully bilingual (English and Spanish), saves progress locally so you
 
 The quiz is live and playable right now via GitHub Pages — no setup needed:
 
-**👉 [omega-slender.github.io/zzz-partner-quiz](https://omega-slender.github.io/zzz-partner-quiz)**
+**👉 [omega-slender.github.io/zzz-match-quiz](https://omega-slender.github.io/zzz-match-quiz)**
 
 If you want to run it locally, no build step, no dependencies, and no installation are required. Just serve it with any static file server:
 
